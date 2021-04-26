@@ -1,0 +1,47 @@
+body{
+	width: 766px;
+	margin: 0 auto;
+}
+ul{
+	list-style-type: none;
+}
+header div{
+	float: right;
+	display: block;	
+}
+header div ul{
+	margin-top: 35px;
+}
+header div ul li{
+	display: inline-block;
+	padding-left: 20px;
+}
+header div ul li a{
+	color: #95D7EB;
+	text-decoration: none;
+	font-size: larger;
+}
+
+main{
+	display: flex;
+}
+.left h1{
+	color: #4BADC0;
+	font-size: 3rem;
+}
+.left h2{
+	color: #648B76;
+	font-weight: normal;
+}
+.left p{
+	color: #00AEEF;
+}
+.right{
+	margin-top: 25px;
+
+}
+.right p{
+	color: #B8B8B8;
+	font-size: smaller;
+	text-align: center;
+}
